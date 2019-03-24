@@ -21,7 +21,11 @@ public class test {
         personasDAO dao=new personasDAO();
         
         Usuario user=new Usuario("Cristian",12);
+        Usuario usera=new Usuario("Cristian",12);
+
         dao.save(user);
+        dao.save(usera);
+
     }
     
 }
