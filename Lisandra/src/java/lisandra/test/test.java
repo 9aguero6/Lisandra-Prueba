@@ -25,8 +25,6 @@ public class test {
 
         dao.save(user);
         dao.save(usera);
-        
-        System.out.println("kjk");
 
     }
     
